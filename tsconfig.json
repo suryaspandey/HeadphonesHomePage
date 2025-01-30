@@ -26,7 +26,7 @@
 		"paths": {
 			"@i18n": ["./src/i18n"],
 			"@store/*": ["./src/store/*"],
-			"@assets/*": ["./src/assets/*"],
+			// "@assets/*": ["./src/assets/*"],
 			"@utilities": ["./src/utilities"],
 			"@utilities/*": ["./src/utilities/*"],
 			"@layouts": ["./src/layouts"],
