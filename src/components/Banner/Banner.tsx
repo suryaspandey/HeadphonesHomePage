@@ -14,7 +14,7 @@ const Banner = () => {
             <motion.div
               variants={fadeUp(0.2)}
               initial="hidden"
-              animate="show"
+              whileInView="show"
               exit="exit"
             >
               <img
