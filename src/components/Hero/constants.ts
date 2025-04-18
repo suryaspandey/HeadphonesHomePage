@@ -7,9 +7,9 @@ export const headphoneData = [
   {
     id: 1,
     image: Headphone1,
-    title: "Headphones Wireless 1",
+    title: "LISTN Pro Series",
     subtitle:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi debitis minus illum quam nihil reiciendis inventore consequatur dicta repellendus eum quisquam delectus, tempore itaque laudantium officiis incidunt ad ipsam?",
+      "Experience crystal-clear audio and deep bass with the latest technology, designed for comfort and style. Perfect for every moment, from work to play.",
     price: "$100",
     model: "Model Brown",
     bgColor: "#8b5958",
@@ -17,9 +17,9 @@ export const headphoneData = [
   {
     id: 2,
     image: Headphone2,
-    title: "Headphones Wireless 2",
+    title: "LISTN Echo Series",
     subtitle:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi debitis minus illum quam nihil reiciendis inventore consequatur dicta repellendus eum quisquam delectus, tempore itaque laudantium officiis incidunt ad ipsam?",
+      "Seamless wireless connection, immersive sound, and a sleek design — LISTN headphones elevate every listening experience with precision and style.",
     price: "$100",
     model: "Lime Green",
     bgColor: "#638153",
@@ -27,9 +27,9 @@ export const headphoneData = [
   {
     id: 3,
     image: Headphone3,
-    title: "Headphones Wireless 3",
+    title: "LISTN Wave Series",
     subtitle:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi debitis minus illum quam nihil reiciendis inventore consequatur dicta repellendus eum quisquam delectus, tempore itaque laudantium officiis incidunt ad ipsam?",
+      "Feel every note with advanced noise cancellation and unrivaled sound quality. LISTN headphones are built for those who demand the best in audio technology.",
     price: "$100",
     model: "Ocean Blue",
     bgColor: "#5d818c",

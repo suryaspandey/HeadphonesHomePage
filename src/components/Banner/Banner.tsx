@@ -54,10 +54,13 @@ const Banner = () => {
                 initial="hidden"
                 whileInView="show"
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
-                aut nisi quas nesciunt consequatur? Aperiam incidunt alias animi
-                in, fuga, nostrum, exercitationem inventore quae odit amet omnis
-                a placeat sunt.
+                Not just headphones — a refined listening experience. With sleek
+                design, adaptive noise cancellation, and rich, balanced sound,
+                LISTN delivers more than just music. It’s where technology meets
+                simplicity. <br/>
+                <span className="font-bold italic">
+                  Comfortable. Powerful. Beautifully quiet.
+                  </span>
               </motion.p>
               <UpdateFollower
                 mouseOptions={{

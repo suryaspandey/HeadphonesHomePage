@@ -42,12 +42,15 @@ const Navbar = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="container flex justify-between items-center "
         >
-          <div>
+          <div className="flex flex-col">
             <a href="#" className="text-xl font-bold uppercase">
-              Playing /
-              <span className="font-extralight text-gray-400">Market</span>
+              L I S T N
             </a>
+            <span className="font-extralight lowercase text-gray-400 text-sm italic">
+              Hear the difference
+            </span>
           </div>
+
           <div className="hidden md:block">
             <ul className="flex items-center gap-4">
               {NavbarMenu.map((item) => (

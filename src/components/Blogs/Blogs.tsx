@@ -2,6 +2,7 @@ import React from "react";
 import { UpdateFollower } from "react-mouse-follower";
 import { BlogsData } from "./constants";
 
+
 const Blogs = () => {
   return (
     <>
