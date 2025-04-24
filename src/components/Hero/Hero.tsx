@@ -4,7 +4,7 @@ import { UpdateFollower } from "react-mouse-follower";
 import { AnimatePresence, motion } from "framer-motion";
 import { heroFadeUp, headphoneData } from "./constants";
 
-const Hero = () => {
+const Hero = ({ theme }: any) => {
   const [activeData, setActiveData] = useState(headphoneData[0]);
 
   const handleActiveData = (item) => {
@@ -15,16 +15,16 @@ const Hero = () => {
     <>
       <section className="bg-brandDark text-white font-varela dark:bg-white">
         <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[700px]">
-          <div className="flex flex-col justify-center py-14 md:py-0 xl:max-w-[500px]">
+          <div className="flex flex-col justify-center py-4 md:py-0 xl:max-w-[500px]">
             <div className="space-y-5 text-center md:text-left">
               <AnimatePresence mode="wait">
                 <UpdateFollower
                   mouseOptions={{
-                    backgroundColor: "white",
+                    backgroundColor: theme ? "white" : "black",
+                    mixBlendMode: theme ? "difference" : "normal",
                     zIndex: 999,
                     followSpeed: 1.5,
                     scale: 10,
-                    mixBlendMode: "difference",
                     rotate: -720,
                   }}
                 >
@@ -84,7 +84,9 @@ const Hero = () => {
               </AnimatePresence>
               <div className="flex items-center justify-center md:justify-start gap-4 !mt-24">
                 <div className="w-20 h-[1px] bg-white dark:bg-black"></div>
-                <p className="uppercase text-sm dark:text-black">Top Headphones for you</p>
+                <p className="uppercase text-sm dark:text-black">
+                  Top Headphones for you
+                </p>
                 <div className="w-20 h-[1px] bg-white dark:bg-black"></div>
               </div>
               <div className="grid grid-cols-3 gap-10">

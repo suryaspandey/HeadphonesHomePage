@@ -10,11 +10,15 @@ import {
 const FAQs = () => {
   return (
     <>
-      <section>
-        <div className="container bg-white mb-4 dark:bg-black">
-          <h1 className="text-3xl mt-4 font-bold text-center font-poppins pb-8">
+      <section className="bg-gray-50 dark:bg-white">
+        <div className="container py-12">
+          <h1 className="text-3xl font-bold text-center font-poppins dark:text-black">
             Frequently Asked Questions
           </h1>
+          <h4 className=" flex justify-center pb-8 text-gray-500">
+            Find answers to common questions about our headphones, shipping,
+            returns, and more.
+          </h4>
 
           <Accordion type="single" collapsible className="space-y-4">
             {FAQData.map((faq) => (

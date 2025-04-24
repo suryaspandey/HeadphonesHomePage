@@ -1,43 +1,62 @@
-import icon1 from "../../assets/icons/obj1.png";
-import icon2 from "../../assets/icons/obj2.png";
-import icon3 from "../../assets/icons/obj3.png";
-import icon4 from "../../assets/icons/obj4.png";
+import { FaHeadphonesAlt } from "react-icons/fa";
+import {
+  FaApple,
+  FaSpotify,
+  FaSoundcloud,
+  FaVideo,
+  FaUsers,
+  FaGamepad,
+} from "react-icons/fa6";
 
 export const integrations = [
   {
-    name: "Figma",
-    icon: icon1,
-    description:
-      "Figma description for integration and integration tests for integration",
+    name: "Spotify",
+    icon: FaSpotify,
+    description: "Stream high-fidelity audio playlists.",
   },
   {
-    name: "CoPilot",
-    icon: icon3,
-    description:
-      "CoPilot description for integration and integration tests for integration",
+    name: "Apple Music",
+    icon: FaApple,
+    description: "Access Apple’s vast music library.",
+  },
+  // { name: "Tidal", icon: FaTidal, description: "Hi-Res lossless streaming." },
+  {
+    name: "Boom 3D",
+    icon: FaHeadphonesAlt,
+    description: "Customize EQ profiles for any environment.",
   },
   {
-    name: "Notion",
-    icon: icon2,
-    description:
-      "Notion description for integration and integration tests for integration",
+    name: "SoundCloud",
+    icon: FaSoundcloud,
+    description: "Share and discover new tracks.",
   },
   {
-    name: "Slack",
-    icon: icon4,
-    description:
-      "Slack description for integration and integration tests for integration",
+    name: "Zoom",
+    icon: FaVideo,
+    description: "Crystal-clear voice calls and meetings.",
   },
   {
-    name: "Framer Motion",
-    icon: icon2,
-    description:
-      "Framer Motion description for integration and integration tests for integration",
+    name: "Discord",
+    icon: FaUsers,
+    description: "Low-latency chat for gamers.",
   },
   {
-    name: "GitHub",
-    icon: icon1,
-    description:
-      "GitHub description for integration and integration tests for integration",
+    name: "Steam",
+    icon: FaGamepad,
+    description: "In-game chat and audio enhancement.",
   },
 ];
+
+export const scrollVariant = (direction = 1) => ({
+  animate: {
+    y: direction > 0 ? ["0%", "-100%"] : ["-100%", "0%"],
+    transition: {
+      y: {
+        repeat: Infinity,
+        repeatType: "loop",
+        duration: 6,
+        ease: "linear",
+      },
+    },
+  },
+});

@@ -35,7 +35,10 @@ const NavbarMenu = [
 const Navbar = () => {
   return (
     <>
-      <div className="bg-brandDark text-white py-8 font-varela dark:bg-white">
+      <div className="bg-brandDark text-white py-2 md:py-8 font-varela dark:bg-white">
+        <div className="md:hidden">
+          <MdMenu className="text-4xl dark:text-black" />
+        </div>
         <motion.nav
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -87,9 +90,6 @@ const Navbar = () => {
                 </button>
               </UpdateFollower>
             </ul>
-          </div>
-          <div className="md:hidden">
-            <MdMenu className="text-4xl" />
           </div>
         </motion.nav>
       </div>

@@ -28,11 +28,10 @@ const Footer = () => {
               }}
               className="space-y-6 dark:text-black"
             >
-              <h1 className="text-3xl font-bold uppercase">Playing</h1>
+              <h1 className="text-3xl font-bold uppercase">LISTN</h1>
               <p className="text-sm max-w-[300px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae ut deserunt officiis, quisquam hic quasi nam quod
-                dolores consequuntur porro!
+                Experience audio like never before with our premium headphones.
+                Designed for audiophiles, music lovers, and everyone in between.
               </p>
               <div>
                 <p className="flex items-center gap-2">
@@ -56,7 +55,9 @@ const Footer = () => {
               }}
               className="space-y-6"
             >
-              <h1 className="text-3xl font-bold dark:text-black">Quick Links</h1>
+              <h1 className="text-3xl font-bold dark:text-black">
+                Quick Links
+              </h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <ul className="space-y-2 dark:text-black">

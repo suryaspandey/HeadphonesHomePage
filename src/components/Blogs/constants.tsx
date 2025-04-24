@@ -9,6 +9,8 @@ export const BlogsData = [
     desc: "Discover the latest advancements in noise-canceling technology and how upcoming headphones are set to improve sound quality, comfort, and battery life. Stay ahead of the trends!",
     link: "#",
     img: Blog1,
+    date: "Jan 15, 2025",
+    readTime: "5 min read",
   },
   {
     id: 2,
@@ -16,6 +18,8 @@ export const BlogsData = [
     desc: "Are wireless headphones really better than wired ones? We compare sound quality, latency, battery life, and overall performance to help you make the right choice.",
     link: "#",
     img: Blog2,
+    date: "Nov 28, 2024",
+    readTime: "5 min read",
   },
   {
     id: 3,
@@ -23,6 +27,8 @@ export const BlogsData = [
     desc: "Looking for the perfect gaming headset? Learn about key features like surround sound, mic quality, and latency to enhance your gaming experience.",
     link: "#",
     img: Blog3,
+    date: "May 10, 2024",
+    readTime: "6 min read",
   },
   {
     id: 4,
@@ -30,5 +36,7 @@ export const BlogsData = [
     desc: "Hi-Res Audio promises superior sound quality, but does it make a real difference? We break down the science of high-fidelity sound and whether it's worth the investment.",
     link: "#",
     img: Blog4,
+    date: "April 14, 2024",
+    readTime: "3 min read",
   },
 ];

@@ -29,14 +29,14 @@ const App = () => {
       <main className="overflow-x-hidden">
         <UpdateFollower
           mouseOptions={{
-            backgroundColor: "#ffffff",
+            backgroundColor: "white",
             mixBlendMode: "difference",
             zIndex: 999,
             followSpeed: 1.5,
           }}
         >
           <Navbar />
-          <Hero />
+          <Hero theme={theme} />
         </UpdateFollower>
         <UpdateFollower
           mouseOptions={{
@@ -47,11 +47,37 @@ const App = () => {
           }}
         >
           <Services />
+        </UpdateFollower>
+        <UpdateFollower
+          mouseOptions={{
+            backgroundColor: "white",
+            mixBlendMode: "difference",
+            zIndex: 999,
+            followSpeed: 1.5,
+          }}
+        >
           <Banner />
           <BannerText />
           <FeaturedProducts />
+        </UpdateFollower>
+        <UpdateFollower
+          mouseOptions={{
+            backgroundColor: "black",
+            zIndex: 999,
+            followSpeed: 1.5,
+          }}
+        >
           <Blogs />
-          {/* <Integrations /> */}
+        </UpdateFollower>
+        <UpdateFollower
+          mouseOptions={{
+            backgroundColor: "white",
+            mixBlendMode: "difference",
+            zIndex: 999,
+            followSpeed: 1.5,
+          }}
+        >
+          <Integrations />
           <FAQs />
           <Footer />
         </UpdateFollower>
