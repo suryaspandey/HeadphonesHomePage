@@ -26,7 +26,7 @@ const Footer = () => {
                 delay: 0.2,
                 duration: 0.6,
               }}
-              className="space-y-6"
+              className="space-y-6 dark:text-black"
             >
               <h1 className="text-3xl font-bold uppercase">Playing</h1>
               <p className="text-sm max-w-[300px]">
@@ -56,18 +56,10 @@ const Footer = () => {
               }}
               className="space-y-6"
             >
-              <h1 className="text-3xl font-bold">Quick Links</h1>
+              <h1 className="text-3xl font-bold dark:text-black">Quick Links</h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <ul className="space-y-2">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                    <li>Privacy Policy</li>
-                  </ul>
-                </div>
-                <div>
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 dark:text-black">
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact Us</li>
@@ -88,20 +80,20 @@ const Footer = () => {
               }}
               className="space-y-6"
             >
-              <h1 className="text-3xl font-bold">Follow Us</h1>
+              <h1 className="text-3xl font-bold dark:text-black">Follow Us</h1>
               <div className="flex items-center gap-3 ">
-                <FaFacebook className="text-3xl hover:scale-105 duration-300" />
-                <FaInstagram className="text-3xl hover:scale-105 duration-300" />
-                <FaTelegram className="text-3xl hover:scale-105 duration-300" />
-                <FaGoogle className="text-3xl hover:scale-105 duration-300" />
+                <FaFacebook className="text-3xl hover:scale-105 duration-300 dark:text-black" />
+                <FaInstagram className="text-3xl hover:scale-105 duration-300 dark:text-black" />
+                <FaTelegram className="text-3xl hover:scale-105 duration-300 dark:text-black" />
+                <FaGoogle className="text-3xl hover:scale-105 duration-300 dark:text-black" />
               </div>
-              <div className="space-y-2">
+              <div className="space-y-2 dark:text-black">
                 <p>Payment Methods</p>
                 <img src={Cards} alt="" className="w-[80%]" />
               </div>
             </motion.div>
           </div>
-          <p className="text-white mt-6 text-center border-t-2 pt-8">
+          <p className="text-white mt-6 text-center border-t-2 pt-8 dark:text-black">
             © 2025. All Rights Reserved | Surya Pandey Headphones
           </p>
         </div>

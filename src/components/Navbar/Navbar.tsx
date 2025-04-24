@@ -35,7 +35,7 @@ const NavbarMenu = [
 const Navbar = () => {
   return (
     <>
-      <div className="bg-brandDark text-white py-8 font-varela">
+      <div className="bg-brandDark text-white py-8 font-varela dark:bg-white">
         <motion.nav
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -43,7 +43,7 @@ const Navbar = () => {
           className="container flex justify-between items-center "
         >
           <div className="flex flex-col">
-            <a href="#" className="text-xl font-bold uppercase">
+            <a href="#" className="text-xl font-bold uppercase dark:text-black">
               L I S T N
             </a>
             <span className="font-extralight lowercase text-gray-400 text-sm italic">
@@ -66,7 +66,7 @@ const Navbar = () => {
                   >
                     <a
                       href={item.link}
-                      className="inline-block text-sm py-2 px-3 uppercase"
+                      className="inline-block text-sm py-2 px-3 uppercase dark:text-black"
                     >
                       {item.title}
                     </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
                   mixBlendMode: "difference",
                 }}
               >
-                <button className="text-xl ps-14">
+                <button className="text-xl ps-14 dark:text-black">
                   <SlEarphones />
                 </button>
               </UpdateFollower>

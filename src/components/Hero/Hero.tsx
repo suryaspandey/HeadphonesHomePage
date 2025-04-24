@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="bg-brandDark text-white font-varela">
+      <section className="bg-brandDark text-white font-varela dark:bg-white">
         <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[700px]">
           <div className="flex flex-col justify-center py-14 md:py-0 xl:max-w-[500px]">
             <div className="space-y-5 text-center md:text-left">
@@ -34,7 +34,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="show"
                     exit="exit"
-                    className="text-3xl lg:text-6xl font-bold font-varela"
+                    className="text-3xl lg:text-6xl font-bold font-varela dark:text-black"
                   >
                     {activeData.title}
                   </motion.h1>
@@ -47,7 +47,7 @@ const Hero = () => {
                   initial="hidden"
                   animate="show"
                   exit="exit"
-                  className="text-sm text-white/80"
+                  className="text-sm text-white/80 dark:text-black"
                 >
                   {activeData.subtitle}
                 </motion.p>
@@ -83,9 +83,9 @@ const Hero = () => {
                 </UpdateFollower>
               </AnimatePresence>
               <div className="flex items-center justify-center md:justify-start gap-4 !mt-24">
-                <div className="w-20 h-[1px] bg-white"></div>
-                <p className="uppercase text-sm">Top Headphones for you</p>
-                <div className="w-20 h-[1px] bg-white"></div>
+                <div className="w-20 h-[1px] bg-white dark:bg-black"></div>
+                <p className="uppercase text-sm dark:text-black">Top Headphones for you</p>
+                <div className="w-20 h-[1px] bg-white dark:bg-black"></div>
               </div>
               <div className="grid grid-cols-3 gap-10">
                 {headphoneData.map((item) => {
@@ -113,7 +113,7 @@ const Hero = () => {
                             className="w-[200px]"
                           />
                         </div>
-                        <div className="space-y-2">
+                        <div className="space-y-2 dark:text-black">
                           <p className="text-base font-bold">{item.price}</p>
                           <p className="text-xs font-normal">{item.model}</p>
                         </div>

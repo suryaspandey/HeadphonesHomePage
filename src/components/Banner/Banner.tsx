@@ -8,7 +8,7 @@ import { fadeUp } from "./constants";
 const Banner = () => {
   return (
     <>
-      <section>
+      <section className="bg-white dark:bg-gray-100">
         <div className="container py-14 grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 gap-12">
           <AnimatePresence mode="wait">
             <motion.div
@@ -44,7 +44,7 @@ const Banner = () => {
                 variants={fadeUpEffect(0.5)}
                 initial="hidden"
                 whileInView="show"
-                className="text-3xl lg:text-4xl font-semibold font-poppins"
+                className="text-3xl lg:text-4xl font-semibold font-poppins dark:text-black"
               >
                 The Latest Headphones With The Latest Technology
               </motion.h1>
@@ -54,13 +54,15 @@ const Banner = () => {
                 initial="hidden"
                 whileInView="show"
               >
-                Not just headphones — a refined listening experience. With sleek
-                design, adaptive noise cancellation, and rich, balanced sound,
-                LISTN delivers more than just music. It’s where technology meets
-                simplicity. <br/>
-                <span className="font-bold italic">
+                <span className="dark:text-black">
+                  Not just headphones — a refined listening experience. With
+                  sleek design, adaptive noise cancellation, and rich, balanced
+                  sound, LISTN delivers more than just music. It’s where
+                  technology meets simplicity. <br />
+                </span>
+                <span className="font-bold italic dark:text-black">
                   Comfortable. Powerful. Beautifully quiet.
-                  </span>
+                </span>
               </motion.p>
               <UpdateFollower
                 mouseOptions={{

@@ -28,7 +28,7 @@ export const ServiceCard = ({ service }) => {
       >
         <img src={service.icon} alt={service.title} className="w-24 mb-4" />
         <div className="text-center space-y-3">
-          <h1 className="text-2xl font-bold flex justify-center">
+          <h1 className="text-2xl font-bold flex justify-center dark:text-black">
             {service.title}
           </h1>
           <p className="text-center text-sm text-black/75">{service.desc}</p>

@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const FeaturedProducts = () => {
   return (
-    <section className="bg-white py-10">
+    <section className="bg-white py-10 dark:bg-black">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
           Featured Products
@@ -26,7 +26,7 @@ const FeaturedProducts = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               />
-              <h3 className="text-xl font-semibold">{product.name}</h3>
+              <h3 className="text-xl font-semibold dark:text-black">{product.name}</h3>
               <p className="text-gray-600 text-sm mb-2">
                 {product.description}
               </p>
