@@ -6,7 +6,7 @@ import { Calendar, Clock } from "lucide-react";
 const Blogs = () => {
   return (
     <>
-      <section className="bg-gray-50 dark:bg-white">
+      <section id="blog" className="bg-gray-50 dark:bg-white">
         <div className="container py-12">
           <h1 className="text-3xl font-bold text-center font-poppins pb-8 dark:text-black">
             Latest from Our Blog

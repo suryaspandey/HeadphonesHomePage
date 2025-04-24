@@ -10,7 +10,7 @@ const ThemeToggle = ({ theme, toggleTheme }) => (
     transition={{ duration: 0.5 }}
     whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9, rotate: 20 }}
-    className="fixed top-4 right-4 z-50 p-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border border-gray-200 dark:border-gray-700 rounded-full shadow-md transition-transform duration-200"
+    className="fixed top-4 right-4  p-3 z-50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border border-gray-200 dark:border-gray-700 rounded-full shadow-md transition-transform duration-200"
   >
     <AnimatePresence mode="wait" initial={false}>
       {theme === "light" ? (

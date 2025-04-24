@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export const Integrations = () => {
   return (
     <>
-      <section className=" container bg-white dark:bg-gray-900 py-8">
+      <section className="container bg-white dark:bg-gray-900 py-8 ">
         <div className="container mx-auto flex flex-col md:flex-row items-start gap-x-0 md:gap-x-16 space-y-8 md:space-y-0 md:space-x-12">
           <div className="w-full md:w-1/3 space-y-4">
             <h2 className="text-3xl font-bold font-poppins">Audio Ecosystem</h2>
@@ -48,9 +48,10 @@ export const Integrations = () => {
 
             <div className="w-1/2 overflow-hidden">
               <motion.div
-                className="-rotate-3 flex flex-col space-y-6 h-64 md:h-80"
+                className="-rotate-3 flex flex-col space-y-6 h-64 md:h-80 "
                 variants={scrollVariant(-1)}
                 animate="animate"
+                style={{ zIndex: 10 }}
               >
                 {integrations.map((int) => (
                   <motion.div

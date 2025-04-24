@@ -10,7 +10,7 @@ import {
 const FAQs = () => {
   return (
     <>
-      <section className="bg-gray-50 dark:bg-white">
+      <section id="faq" className="bg-gray-50 dark:bg-white">
         <div className="container py-12">
           <h1 className="text-3xl font-bold text-center font-poppins dark:text-black">
             Frequently Asked Questions

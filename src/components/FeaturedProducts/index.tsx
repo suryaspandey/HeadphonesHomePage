@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const FeaturedProducts = () => {
   return (
-    <section className="bg-white dark:bg-black py-16">
+    <section id="featured" className="bg-white dark:bg-black py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-4">
           Featured Headphones

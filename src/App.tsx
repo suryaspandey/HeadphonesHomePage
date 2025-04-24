@@ -25,8 +25,9 @@ const App = () => {
   return (
     <>
       <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+      <Navbar />
 
-      <main className="overflow-x-hidden">
+      <main className="overflow-x-hidden pl-0 md:pl-40">
         <UpdateFollower
           mouseOptions={{
             backgroundColor: "white",
@@ -35,7 +36,6 @@ const App = () => {
             followSpeed: 1.5,
           }}
         >
-          <Navbar />
           <Hero theme={theme} />
         </UpdateFollower>
         <UpdateFollower
@@ -57,7 +57,7 @@ const App = () => {
           }}
         >
           <Banner />
-          <BannerText />
+          {/* <BannerText /> */}
           <FeaturedProducts />
         </UpdateFollower>
         <UpdateFollower

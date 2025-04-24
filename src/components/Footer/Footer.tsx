@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-primary pt-12 pb-8 text-white">
+      <footer id="footer" className="bg-primary pt-12 pb-8 text-white">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <motion.div

@@ -7,7 +7,10 @@ import { fadeUpEffect } from "../utilities/fadeUpEffect";
 const Services = () => {
   return (
     <>
-      <section className="bg-gray-100 dark:bg-black font-poppins py-8 ">
+      <section
+        id="services"
+        className="bg-gray-100 dark:bg-black font-poppins py-8 "
+      >
         <div className="container py-14">
           <motion.h1
             variants={fadeUpEffect(0.2)}
