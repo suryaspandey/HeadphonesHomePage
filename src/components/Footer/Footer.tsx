@@ -95,7 +95,7 @@ const Footer = () => {
             </motion.div>
           </div>
           <p className="text-white mt-6 text-center border-t-2 pt-8 dark:text-black">
-            © 2025. All Rights Reserved | Surya Pandey Headphones
+            © 2025. All Rights Reserved | Surya Pandey | LISTN
           </p>
         </div>
       </footer>
