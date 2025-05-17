@@ -61,10 +61,24 @@ const Footer = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <ul className="space-y-2 dark:text-black">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                    <li>Privacy Policy</li>
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#services">Services</a>
+                    </li>
+                    <li>
+                      <a href="#featured">Featured</a>
+                    </li>
+                    <li>
+                      <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                      <a href="#footer">Contact Us</a>
+                    </li>
                   </ul>
                 </div>
               </div>

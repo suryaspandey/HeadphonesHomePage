@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
 import { SlEarphones } from "react-icons/sl";
 import { UpdateFollower } from "react-mouse-follower";
-import { motion } from "framer-motion";
 
 const NavbarMenu = [
   {

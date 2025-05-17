@@ -3,9 +3,13 @@ import { FaWhatsapp } from "react-icons/fa";
 import { UpdateFollower } from "react-mouse-follower";
 import { AnimatePresence, motion } from "framer-motion";
 import { heroFadeUp, headphoneData } from "./constants";
+import useIsMobile from "../../Hooks/useIsMobile";
+import { SlEarphones } from "react-icons/sl";
 
 const Hero = ({ theme }: any) => {
   const [activeData, setActiveData] = useState(headphoneData[0]);
+
+  const isMobile = useIsMobile();
 
   const handleActiveData = (item) => {
     setActiveData(item);
@@ -28,6 +32,26 @@ const Hero = ({ theme }: any) => {
                     rotate: -720,
                   }}
                 >
+                  {isMobile && (
+                    <motion.h1>
+                      <div className="flex flex-col items-center justify-center gap-3 pb-3">
+                        <div>
+                          <a
+                            href="#"
+                            className="text-2xl font-bold uppercase dark:text-black"
+                          >
+                            L I S T N
+                          </a>
+                          <button className="text-xl dark:text-black hover:bg-gray-700 hover:text-white transition-all duration-200 rounded-full p-1">
+                            <SlEarphones />
+                          </button>
+                        </div>
+                        <div className="font-light lowercase text-gray-400 text-s italic">
+                          Hear the difference
+                        </div>
+                      </div>
+                    </motion.h1>
+                  )}
                   <motion.h1
                     key={activeData.id}
                     variants={heroFadeUp(0.2)}
